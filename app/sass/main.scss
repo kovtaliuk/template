@@ -1300,7 +1300,7 @@ header {
 				font-weight: 500;
 				.name {
 					display: block;
-					font-family: "TTNorms-Bold";;
+					font-family: "TTNorms-Bold";
 				}
 				.date {
 					font-family: "TTNorms-Regular";
@@ -1917,7 +1917,7 @@ header {
 						line-height: 24px;
 					}
 					&:before {
-						color: $main;
+						color: $bg-grey-icon;
 					}
 				}
 				span {
@@ -1978,6 +1978,66 @@ header {
 		}
 	}
 }
+
+/***********************************third-template********************************/
+
+.products.third-template {
+	text-align: center;
+	.container-wrapper {
+		padding: 0;
+	}
+	h2 {
+		margin: 0 0 44px;
+	}
+}
+.advantages.third-template {
+	.row {
+		max-width: 1140px;
+		margin: 0 auto;
+	}
+	.advantages-item {
+		width: 50%;
+		.advantages-item-inner {
+			display: block;
+			min-height: auto;
+			box-shadow: none;
+			background: none;
+			text-align: left;
+			padding: 0 0 0 45px;
+			position: relative;
+			margin: 0 15px 45px;
+			&:before {
+				content: '';
+				width: 15px;
+				height: 15px;
+				background-color: $main;
+				border-radius: 50%;
+				display: inline-block;
+				position: absolute;
+				left: 0;
+				top: 8px;
+			}
+			h4 {
+				font-family: "TTNorms-Medium";
+				color: $text-black;
+				font-size: 24px;
+				font-weight: 500;
+				line-height: 36px;
+				margin: 0 0 7px;
+			}
+			p {
+				color: $text-grey-advantages;
+				font-size: 18px;
+				font-weight: 400;
+				line-height: 26px;
+				max-width: 400px;
+			}
+		}
+	}
+}
+
+
+
 
 /****************green-template********************/
 .green-template {
@@ -2083,7 +2143,307 @@ header {
 	}
 }
 
+/****************blue-template********************/
+.blue-template {
+	.address .text::before {
+		color: $blue-template;
+	}
+	.time-work .text::before {
+		color: $blue-template;
+	}
+	.phone-mail .text::before {
+		color: $blue-template;
+	}
+	.btn-white {
+		border: 2px solid $blue-template;
+		&:hover {
+			background: $blue-template;
+		}
+	}
+	.nav-list ul li a {
+		&:hover {
+			color: $blue-template;
+		}
+	}
+	.banner-text .text-red {
+		color: $red-text;
+	}
+	.banner-second .banner-slider .banner-slider-item .banner-text ul li::before {
+		color: $blue-template;
+	}
+	.btn-red {
+		background: $blue-template;
+		border: 2px solid $blue-template;
+		&:hover {
+			color: #000;
+			background: #fff;
+		}
+	}
+	.slick-dots li.slick-active button {
+		background: $blue-template;
+	}
+	.slick-dots li:hover button {
+		background: $blue-template;
+	}
+	.banner.second-template .banner-slider .banner-slider-item .banner-text ul li::before {
+		color: $blue-template;
+	}
+	.company.second-template .text::before {
+		color: $blue-template;
+	}
+	.text-red {
+		color: $red-text;
+	}
+	.advantages.second-template .advantages-item .advantages-item-inner .img-block p {
+		color: $blue-template;
+	}
+	.first-customers .container .text h2 .text-red {
+		color: $blue-template;
+	}
+	.products-item .text .price-wrapper .price {
+		color: $red-text;
+	}
+	.our-prices.second-template .our-prices-list .title .row {
+		background: $blue-template;
+	}
+	.tabs-nav li.tab-active a::after {
+		background: $blue-template;
+	}
+	.tabs-nav li:hover a::after {
+		background: $blue-template;
+	}
+	.reviews-video-slider .item .video .btn-play {
+		background: $blue-template;
+	}
+	.question-item .title::after {
+		color: $blue-template;
+	}
+	.question-item.show .title {
+		background: $blue-template;
+	}
+	.question-item.show .title::after {
+		color: #ffffff;
+	}
+	.question-item:hover .title {
+		background: $blue-template;
+	}
+	.question-item:hover .title::after {
+		color: #ffffff;
+	}
+	.contacts-wrapper.map .contact-list .social-list li a:hover::before {
+		color: $blue-template;
+	}
+	.contacts-wrapper.map .contact-list .contacts-items li a::before {
+		color: $blue-template;
+	}
+	.contact-list ul li span.address::before {
+		color: $blue-template;
+	}
+	.contact-list ul li span.time-work::before {
+		color: $blue-template;
+	}
+	.phone-mail .text a:hover {
+		color: $blue-template;
+	}
+	.products-item.discount {
+		background: $blue-template;
+		text-align: left;
+	}
+	.products-item.discount h2 strong {
+		color: #ffffff;
+	}
+	.products-item.discount .time-wrapper .time-wrapper-date .countdown {
+		.countdown-container {
+			.countdown-value {
+				background: $bg-grey-time;
+				color: $text-black;
+			}
+			&.seconds {
+				.countdown-value {
+					color: $red-text;
+				}
+			}
+		}
+	}
+	.advantages.third-template .advantages-item .advantages-item-inner::before {
+		background: $blue-template;
+	}
+}
 
-
+/****************yellow-template********************/
+.yellow-template {
+	.address .text::before {
+		color: $yellow-template;
+	}
+	.time-work .text::before {
+		color: $yellow-template;
+	}
+	.phone-mail .text::before {
+		color: $yellow-template;
+	}
+	.btn-white {
+		border: 2px solid $yellow-template;
+		&:hover {
+			background: $yellow-template;
+		}
+	}
+	.nav-list ul li a {
+		&:hover {
+			color: $yellow-template;
+		}
+	}
+	.banner-text .text-red {
+		color: $yellow-text;
+	}
+	.banner-second .banner-slider .banner-slider-item .banner-text ul li::before {
+		color: $yellow-template;
+	}
+	.btn-red {
+		background: $green-template;
+		border: 2px solid $green-template;
+		&:hover {
+			color: #000;
+			background: #fff;
+		}
+	}
+	.first-customers .btn-red {
+		background: $yellow-template;
+		border: 2px solid $yellow-template;
+		&:hover {
+			color: #000;
+			background: #fff;
+		}
+	}
+	.form .form-inner .form-inner-item .btn-red {
+		border: 2px solid $main;
+		background: $main;
+		&:hover {
+			border: 2px solid $main;
+		}
+	}
+	.contacts-wrapper .form .form-inner .form-inner-item.btn .btn-red:hover {
+		border: 2px solid #ffffff;
+		background: #ffffff;
+	}
+	.slick-dots li.slick-active button {
+		background: $green-template;
+	}
+	.slick-dots li:hover button {
+		background: $green-template;
+	}
+	.reviews .slick-dots li.slick-active button {
+		background: $yellow-template;
+	}
+	.reviews .slick-dots li:hover button {
+		background: $yellow-template;
+	}
+	.banner.second-template .banner-slider .banner-slider-item .banner-text ul li::before {
+		color: $yellow-template;
+	}
+	.company.second-template .text::before {
+		color: $yellow-template;
+	}
+	.text-red {
+		color: $text-purple;
+	}
+	.advantages .text-red {
+		color: $gold-text;
+	}
+	.products .text-red {
+		color: $red-text;
+	}
+	.contacts-wrapper .text-red {
+		color: $main;
+	}
+	.advantages.second-template .advantages-item .advantages-item-inner .img-block p {
+		color: $yellow-template;
+	}
+	.first-customers .container .text h2 .text-red {
+		color: $yellow-template;
+	}
+	.products-item .text .price-wrapper .price {
+		color: $text-purple;
+	}
+	.our-prices.second-template .our-prices-list .title .row {
+		background: $text-purple;
+	}
+	.tabs-nav li.tab-active a::after {
+		background: $yellow-template;
+	}
+	.tabs-nav li:hover a::after {
+		background: $yellow-template;
+	}
+	.reviews-video-slider .item .video .btn-play {
+		background: $yellow-template;
+	}
+	.question-item .title::after {
+		color: $text-purple;
+	}
+	.question-item.show .title {
+		background: $text-purple;
+	}
+	.question-item.show .title::after {
+		color: #ffffff;
+	}
+	.question-item:hover .title {
+		background: $text-purple;
+	}
+	.question-item:hover .title::after {
+		color: #ffffff;
+	}
+	.contacts-wrapper.map .contact-list .social-list li a:hover::before {
+		color: $yellow-template;
+	}
+	.contacts-wrapper.map .contact-list .contacts-items li a::before {
+		color: $yellow-template;
+	}
+	.contact-list ul li span.address::before {
+		color: $bg-grey-icon;
+	}
+	.contact-list ul li span.time-work::before {
+		color: $bg-grey-icon;
+	}
+	.phone-mail .text a:hover {
+		color: $yellow-template;
+	}
+	.products-item.discount {
+		background: $text-purple;
+		text-align: left;
+	}
+	.products-item.discount h2 strong {
+		color: #ffffff;
+	}
+	.products-item.discount .time-wrapper .time-wrapper-date .countdown {
+		.countdown-container {
+			.countdown-value {
+				background: $bg-grey-time;
+				color: $text-black;
+			}
+			&.seconds {
+				.countdown-value {
+					color: $yellow-template;
+				}
+			}
+		}
+	}
+	.advantages.third-template .advantages-item .advantages-item-inner::before {
+		background: $yellow-template;
+	}
+	.form .form-inner h3 {
+		background-color: $yellow-text;
+	}
+	.form .form-inner .form-inner-item.discount-wrapper .discount {
+		color: $gold-text;
+	}
+	.time-wrapper .time-wrapper-date .countdown {
+		.countdown-container {
+			&.seconds {
+				.countdown-value {
+					color: $green-template;
+				}
+			}
+		}
+	}
+}
 
 @import '_media';

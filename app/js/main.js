@@ -108,22 +108,10 @@ $(document).ready(function () {
 			phoneMailHeader.insertAfter('header .time-work');
 		}
 	}
-
 	$(document).ready(function () {
 		monitorSize();
 	});
-
 	$(window).resize(function () {
 		monitorSize();
 	});
-
-
-
-
-
-
-
-
-
-
 });

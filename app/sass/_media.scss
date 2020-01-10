@@ -736,7 +736,7 @@
 		padding: 20px 15px;
 	}
 	.contacts-wrapper.map .contact-list {
-		padding: 31px 15px;
+		padding: 31px 15px 20px;
 	}
 	.sale-block .container .text h2 {
 		font-size: 28px;
@@ -766,5 +766,18 @@
 	}
 	.banner.second-template .banner-slider .banner-slider-item .banner-text h1 strong {
 		margin: 0 0 10px;
+	}
+	.advantages.third-template .advantages-item {
+		width: 100%;
+	}
+	.advantages.third-template .advantages-item .advantages-item-inner {
+		margin: 0 0 20px;
+		padding: 0 0 0 30px;
+	}
+	.advantages.third-template .advantages-item .advantages-item-inner h4 {
+		line-height: 30px;
+	}
+	.advantages.third-template h2 {
+		margin: 10px 0 20px;
 	}
 }
