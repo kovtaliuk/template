@@ -1,3 +1,9 @@
+//////////////////////////////////////////// --- to 1366 --- /////////////////////////////////////////////////
+@media screen and ( max-width: 1420px ) {
+	.sale-second-block .container .row .img-block .text-sale {
+		right: 0;
+	}
+}
 //////////////////////////////////////////// --- to 1280 --- /////////////////////////////////////////////////
 @media screen and ( max-width: 1360px ) {
 	.our-prices-item .content {
@@ -82,6 +88,20 @@
 	}
 	.contacts-wrapper.map .row .footer-text {
 		margin: 40px 0 0;
+	}
+	.consultation-block .container .row .text .btn-red {
+		padding: 15px 25px 18px;
+	}
+	.sale-second-block {
+		.row {
+			align-items: center;
+		}
+	}
+	.sale-second-block .container .row .img-block .text-sale {
+		top: -90px;
+	}
+	.sale-second-block .container .row .text {
+		padding: 0 0 0 30px;
 	}
 }
 //////////////////////////////////////////// --- to 768 --- /////////////////////////////////////////////////
@@ -301,6 +321,60 @@
 	}
 	.green-template .our-prices.second-template .our-prices-list .title .row {
 		padding: 31px 30px 25px;
+	}
+	.beautiful-cheap-block {
+		padding: 70px 0;
+		.container {
+			.row {
+				flex-wrap: wrap;
+				.img-block {
+					order: 2;
+					width: 100%;
+				}
+				.form {
+					width: 100%;
+					order: 1;
+					padding: 0 60px;
+				}
+			}
+		}
+	}
+	.consultation-block {
+		.container {
+			.row {
+				flex-wrap: wrap;
+				.text {
+					width: 100%;
+					padding: 0 60px;
+				}
+				.img-block {
+					width: 100%;
+					padding: 30px 0 0;
+				}
+			}
+		}
+	}
+	.sale-second-block {
+		padding: 40px 0;
+		.container {
+			.row {
+				flex-wrap: wrap;
+				.text {
+					width: 100%;
+					padding: 0 60px;
+					order: 1;
+				}
+				.img-block {
+					order: 2;
+					width: 100%;
+					padding: 30px 0 0;
+
+					.text-sale {
+						top: 0;
+					}
+				}
+			}
+		}
 	}
 }
 //////////////////////////////////////////// --- to 320 --- /////////////////////////////////////////////////
@@ -745,6 +819,7 @@
 	.sale-block .container .text p {
 		font-size: 26px;
 		line-height: 31px;
+		text-align: center;
 	}
 	.contacts-wrapper.map .contact-list h2 {
 		font-size: 28px;
@@ -779,5 +854,90 @@
 	}
 	.advantages.third-template h2 {
 		margin: 10px 0 20px;
+	}
+	.beautiful-cheap-block .container .row .form {
+		padding: 0;
+	}
+	.beautiful-cheap-block .form h2 {
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+	}
+	.beautiful-cheap-block {
+		padding: 40px 0;
+	}
+	.beautiful-cheap-block .form .form-inner .form-inner-item.name {
+		margin: 15px 0 32px;
+	}
+	.beautiful-cheap-block .form .form-inner .form-inner-item .btn-red {
+		padding: 16px 35px 18px;
+		margin: auto;
+	}
+	.consultation-block .container .row .text {
+		padding: 0;
+	}
+	.consultation-block .container .row .text h2 {
+		font-size: 28px;
+		line-height: 36px;
+		text-align: center;
+	}
+	.beautiful-cheap-block .form .form-inner .form-inner-item.title {
+		margin: 15px 0 30px;
+		text-align: center;
+	}
+	.consultation-block .container .row .text p {
+		text-align: center;
+	}
+	.consultation-block .container .row .text .btn-red {
+		margin: 30px auto 0;
+	}
+	.sale-second-block .container .row .text {
+		padding: 0;
+		text-align: center;
+	}
+	.sale-second-block {
+		.container {
+			.row {
+				.text {
+					.time-wrapper {
+						.time-wrapper-date {
+							.countdown-container {
+								.countdown-value {
+									width: 50px;
+									height: 50px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.sale-second-block .container .row .text .time-wrapper .time-wrapper-title {
+		font-size: 12px;
+		width: 90px;
+	}
+	.sale-second-block .container .row .text .time-wrapper .time-wrapper-date {
+		margin: 0;
+	}
+	.beautiful-cheap-block .form .form-inner {
+		padding: 0 0 15px;
+	}
+	.sale-second-block .container .row .img-block {
+		padding: 100px 0 0;
+	}
+	.sale-second-block .container .row .img-block .text-sale {
+		font-size: 80px;
+		line-height: 60px;
+		top: 20px;
+	}
+	.sale-second-block .container .row .img-block .text-sale span {
+		font-size: 45px;
+	}
+	.beautiful-cheap-block.consult-template {
+		padding: 40px 0;
+	}
+	.beautiful-cheap-block .form .form-inner .form-inner-item.phone {
+		margin: 0 0 45px;
 	}
 }
