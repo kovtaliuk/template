@@ -97,7 +97,7 @@
 								<a class="btn-red" data-fancybox="" href="#modal">Хочу попробовать</a>
 							</div>
 							<div class="form">
-								<form action="#">
+								<form class="form-validate" action="#">
 									<div class="form-inner">
 										<h3>Специальное предложение</h3>
 										<div class="form-inner-item discount-wrapper">
@@ -118,11 +118,11 @@
 										</div>
 										<div class="form-inner-item name">
 											<span class="title">Имя</span>
-											<input type="text" name="name" minlength="4" placeholder="Ваше имя" required="">
+											<input type="text" name="name" minlength="4" placeholder="Ваше имя">
 										</div>
 										<div class="form-inner-item phone">
 											<span class="title">Телефон</span>
-											<input type="text" name="phone" minlength="4" placeholder="Номер телефона" required="">
+											<input type="text" name="phone" minlength="4" placeholder="Номер телефона">
 										</div>
 										<div class="form-inner-item btn">
 											<input class="btn-red" type="submit" aria-required="true" value="Оставить заявку">
@@ -134,7 +134,7 @@
 						</div>
 						<div class="banner-slider-item">
 							<div class="form">
-								<form action="#">
+								<form class="form-validate" action="#">
 									<div class="form-inner">
 										<h3>Специальное предложение</h3>
 										<div class="form-inner-item discount-wrapper">
@@ -150,11 +150,11 @@
 										</div>
 										<div class="form-inner-item name">
 											<span class="title">Имя</span>
-											<input type="text" name="name" minlength="4" placeholder="Ваше имя" required="">
+											<input type="text" name="name" minlength="4" placeholder="Ваше имя">
 										</div>
 										<div class="form-inner-item phone">
 											<span class="title">Телефон</span>
-											<input type="text" name="phone" minlength="4" placeholder="Номер телефона" required="">
+											<input type="text" name="phone" minlength="4" placeholder="Номер телефона">
 										</div>
 										<div class="form-inner-item btn">
 											<input class="btn-red" type="submit" aria-required="true" value="Оставить заявку">
@@ -578,18 +578,18 @@
 				<h2>Наши контакты</h2>
 				<div class="row">
 					<div class="form">
-						<form action="#">
+						<form class="form-validate" action="#">
 							<div class="form-inner">
 								<div class="form-inner-item title">
 									<span>Оставьте заявку и мы свяжемся с вами </span>
 								</div>
 								<div class="form-inner-item name">
 									<span class="title">Имя</span>
-									<input type="text" name="name" minlength="4" placeholder="Ваше имя" required="">
+									<input type="text" name="name" minlength="4" placeholder="Ваше имя">
 								</div>
 								<div class="form-inner-item phone">
 									<span class="title">Телефон</span>
-									<input type="text" name="phone" minlength="4" placeholder="Номер телефона" required="">
+									<input type="text" name="phone" minlength="4" placeholder="Номер телефона">
 								</div>
 								<div class="form-inner-item btn">
 									<input class="btn-red" type="submit" aria-required="true" value="Свяжитесь со мной">
@@ -614,14 +614,14 @@
 	<!-- Modal -->
 	<div id="modal" class="modal-form" style="display: none;">
 		<div class="form-wrapper">
-			<form action="form.php">
+			<form class="form-validate" action="#">
 				<div class="form-inner">
 					<h3>Заказать звонок</h3>
 					<div class="form-inner-item">
-						<input type="text" name="name" minlength="4" placeholder="Ваше имя" required="">
+						<input type="text" name="name" minlength="4" placeholder="Ваше имя">
 					</div>
 					<div class="form-inner-item phone">
-						<input type="text" name="phone" minlength="4" placeholder="Номер телефона" required="">
+						<input type="text" name="phone" minlength="4" placeholder="Номер телефона">
 					</div>
 					<div class="form-inner-item btn">
 						<input class="btn-red crop" type="submit" aria-required="true" value="Оставить заявку">
@@ -637,6 +637,7 @@
 	<script src="libs/slick/slick.js"></script>
 	<script src="libs/mask/mask.js"></script>
 	<script src="libs/timer/countdown.js"></script>
+	<script src="libs/validate/validate.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>

@@ -3,6 +3,72 @@
 	.sale-second-block .container .row .img-block .text-sale {
 		right: 0;
 	}
+	.logo {
+		padding: 10px 0;
+	}
+	.form .form-inner h3 {
+		height: 60px;
+		line-height: 60px;
+		font-size: 26px;
+	}
+	.form .form-inner {
+		padding: 0 0 20px;
+	}
+	.nav-list ul {
+		height: 40px;
+	}
+	.form .form-inner .form-inner-item.name {
+		margin: 15px 40px 10px;
+	}
+	.form .form-inner .form-inner-item.discount-wrapper {
+		padding: 10px 0;
+	}
+	.form .form-inner .form-inner-item.time-wrapper {
+		padding: 7px 40px 7px;
+	}
+	.form .form-inner .form-inner-item input {
+		line-height: 30px;
+		padding: 0 0 5px;
+	}
+	.form .form-inner .form-inner-item.phone {
+		margin: 0 40px 20px;
+	}
+	.banner-slider {
+		padding: 20px 100px 15px;
+	}
+	.btn-mouse {
+		margin: 0;
+	}
+	.form .form-inner .form-inner-item .title {
+		line-height: 18px;
+	}
+	.form .form-inner .form-inner-item.discount-wrapper .discount {
+		font-size: 26px;
+		line-height: 26px;
+	}
+	.banner.second-template .banner-slider {
+		padding: 40px 60px 15px;
+	}
+	.banner-text .text-red {
+		margin: 20px 0 0;
+	}
+	.banner.second-template .banner-slider .banner-slider-item .banner-text {
+		padding: 0 0 25px;
+	}
+	.banner.second-template .banner-slider .banner-slider-item .banner-text h1 {
+		margin: 15px 0 20px;
+	}
+	.advantages .shadow {
+		font-size: 180px;
+		top: -20px;
+	}
+	.question-answer .shadow {
+		font-size: 190px;
+		line-height: 125px;
+	}
+	.our-prices.second-template .shadow {
+		font-size: 220px;
+	}
 }
 //////////////////////////////////////////// --- to 1280 --- /////////////////////////////////////////////////
 @media screen and ( max-width: 1360px ) {
@@ -376,6 +442,12 @@
 			}
 		}
 	}
+	.reviews-text-slider .slick-prev, .reviews-video-slider .slick-prev, .reviews-screens-slider .slick-prev {
+		left: 0;
+	}
+	.reviews-text-slider .slick-next, .reviews-video-slider .slick-next, .reviews-screens-slider .slick-next {
+		right: 0;
+	}
 }
 //////////////////////////////////////////// --- to 320 --- /////////////////////////////////////////////////
 @media screen and ( max-width: 767px ) {
@@ -417,7 +489,7 @@
 	.nav-icon span:nth-child(1) {
 		top: 0px;
 	}
-	.nav-icon span:nth-child(2),.nav-icon span:nth-child(3) {
+	.nav-icon span:nth-child(2), .nav-icon span:nth-child(3) {
 		top: 12px;
 	}
 	.nav-icon span:nth-child(4) {
@@ -457,17 +529,21 @@
 		-o-transition: .3s right;
 		transition: .3s right;
 		background: #ffffff;
-		box-shadow: inset 0 5px 5px rgba(0,0,0,.1);
+		box-shadow: inset 0 5px 5px rgba(0, 0, 0, .1);
 		padding: 40px 30px;
+
 		&.active {
 			right: 0;
 		}
+
 		ul {
 			display: block;
 			height: auto;
+
 			li {
 				display: block;
 				margin: 0 0 15px;
+
 				a {
 					font-size: 17px;
 				}
@@ -507,7 +583,7 @@
 		padding: 12px 10px 14px;
 	}
 	.slick-arrow {
-		display: none!important;
+		display: none !important;
 	}
 	.time-wrapper {
 		.countdown {
@@ -515,6 +591,7 @@
 				.countdown-heading {
 
 				}
+
 				.countdown-value {
 					width: 45px;
 					height: 45px;
@@ -536,7 +613,7 @@
 		margin: 0 20px 32px;
 	}
 	.slick-dots {
-		display: none!important;
+		display: none !important;
 	}
 	.btn-mouse {
 		display: none;
@@ -578,7 +655,7 @@
 		padding: 0;
 	}
 	.products-item {
-		padding: 40px 20px;
+		padding: 10px 20px 20px;
 	}
 	.products-item.discount .text-white {
 		margin: 0;
@@ -622,10 +699,11 @@
 		padding: 40px 0;
 	}
 	.reviews-text-slider .item {
-		display: block!important;
+		display: block !important;
 	}
 	.reviews-text-slider .item .img-block {
 		text-align: center;
+
 		img {
 			display: inline-block;
 		}
@@ -638,7 +716,7 @@
 		padding: 40px 0 0;
 	}
 	.reviews-video-slider .item {
-		display: block!important;
+		display: block !important;
 	}
 	.reviews-video-slider .item .video {
 		width: 100%;
@@ -939,5 +1017,44 @@
 	}
 	.beautiful-cheap-block .form .form-inner .form-inner-item.phone {
 		margin: 0 0 45px;
+	}
+	.banner .container .row {
+		margin: 0 -15px;
+	}
+	.banner-slider {
+		.slick-slide {
+			margin: 0 15px;
+		}
+	}
+	.gallery-slider-wrapper .gallery-slider .slick-list .slick-slide .gallery-slider-item img {
+		width: auto;
+	}
+	.products {
+		padding: 40px 0 30px;
+	}
+	.gallery h2 {
+		margin: 0 0 25px;
+	}
+	.products-item.discount {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	.our-prices-item .title, .our-prices-item.standard .title, .our-prices-item.vip .title  {
+		height: 80px;
+	}
+	.our-prices {
+		padding: 40px 0 20px;
+	}
+	.reviews-text-slider .item .img-block {
+		margin: 0 0 10px;
+	}
+	.reviews-text-slider {
+		padding: 0;
+	}
+	.reviews-screens-slider .item .item-inner {
+		min-height: 400px;
+	}
+	.company.second-template .text .btn-white {
+		padding: 15px 10px 18px;
 	}
 }

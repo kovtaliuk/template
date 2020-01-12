@@ -636,14 +636,14 @@
 	<!-- Modal -->
 	<div id="modal" class="modal-form" style="display: none;">
 		<div class="form-wrapper">
-			<form action="form.php">
+			<form class="form-validate" action="#">
 				<div class="form-inner">
 					<h3>Заказать звонок</h3>
 					<div class="form-inner-item">
-						<input type="text" name="name" minlength="4" placeholder="Ваше имя" required="">
+						<input type="text" name="name" minlength="4" placeholder="Ваше имя">
 					</div>
 					<div class="form-inner-item phone">
-						<input type="text" name="phone" minlength="4" placeholder="Номер телефона" required="">
+						<input type="text" name="phone" minlength="4" placeholder="Номер телефона">
 					</div>
 					<div class="form-inner-item btn">
 						<input class="btn-red crop" type="submit" aria-required="true" value="Оставить заявку">
@@ -659,6 +659,7 @@
 	<script src="libs/slick/slick.js"></script>
 	<script src="libs/mask/mask.js"></script>
 	<script src="libs/timer/countdown.js"></script>
+	<script src="libs/validate/validate.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
